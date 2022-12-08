@@ -6,7 +6,6 @@ squares = [1, 4, 9, 16, 25]
 fig, ax = plt.subplots()
 
 ax.plot(input_values, squares, linewidth=2.5)
-# ax.plot(squares, linewidth=3)
 
 ax.set_title("Quadratzahlen", fontsize=20)
 ax.set_xlabel("Wert", fontsize=10)
